@@ -1,4 +1,4 @@
-﻿namespace Key_Service
+﻿namespace KeyService
 {
 	partial class KeyServiceForm
 	{
@@ -29,124 +29,124 @@
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KeyServiceForm));
-			this.checkBox1 = new System.Windows.Forms.CheckBox();
-			this.checkBox2 = new System.Windows.Forms.CheckBox();
-			this.checkBox3 = new System.Windows.Forms.CheckBox();
-			this.checkBox4 = new System.Windows.Forms.CheckBox();
-			this.label1 = new System.Windows.Forms.Label();
-			this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.textBox = new System.Windows.Forms.TextBox();
-			this.label2 = new System.Windows.Forms.Label();
-			this.checkBox5 = new System.Windows.Forms.CheckBox();
+			this.checkBoxLittleChars = new System.Windows.Forms.CheckBox();
+			this.checkBoxBigChars = new System.Windows.Forms.CheckBox();
+			this.checkBoxNumbers = new System.Windows.Forms.CheckBox();
+			this.checkBoxSonderzeichen = new System.Windows.Forms.CheckBox();
+			this.labelLength = new System.Windows.Forms.Label();
+			this.numericUpDownLength = new System.Windows.Forms.NumericUpDown();
+			this.textBoxKey = new System.Windows.Forms.TextBox();
+			this.textBoxSonderzeichen = new System.Windows.Forms.TextBox();
+			this.labelKey = new System.Windows.Forms.Label();
+			this.checkBoxUnicat = new System.Windows.Forms.CheckBox();
 			this.buttonSaveToFile = new System.Windows.Forms.Button();
 			this.buttonCopyToClipboard = new System.Windows.Forms.Button();
 			this.buttonGenerateKey = new System.Windows.Forms.Button();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.numericUpDownLength)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// checkBox1
+			// checkBoxLittleChars
 			// 
-			this.checkBox1.AutoSize = true;
-			this.checkBox1.Location = new System.Drawing.Point(131, 13);
-			this.checkBox1.Name = "checkBox1";
-			this.checkBox1.Size = new System.Drawing.Size(184, 17);
-			this.checkBox1.TabIndex = 4;
-			this.checkBox1.Text = "lateinische Kleinbuchstaben [a..z]";
-			this.checkBox1.UseVisualStyleBackColor = true;
+			this.checkBoxLittleChars.AutoSize = true;
+			this.checkBoxLittleChars.Location = new System.Drawing.Point(131, 13);
+			this.checkBoxLittleChars.Name = "checkBoxLittleChars";
+			this.checkBoxLittleChars.Size = new System.Drawing.Size(184, 17);
+			this.checkBoxLittleChars.TabIndex = 4;
+			this.checkBoxLittleChars.Text = "lateinische Kleinbuchstaben [a..z]";
+			this.checkBoxLittleChars.UseVisualStyleBackColor = true;
 			// 
-			// checkBox2
+			// checkBoxBigChars
 			// 
-			this.checkBox2.AutoSize = true;
-			this.checkBox2.Location = new System.Drawing.Point(131, 36);
-			this.checkBox2.Name = "checkBox2";
-			this.checkBox2.Size = new System.Drawing.Size(187, 17);
-			this.checkBox2.TabIndex = 5;
-			this.checkBox2.Text = "lateinische Großbuchstaben [A..Z]";
-			this.checkBox2.UseVisualStyleBackColor = true;
+			this.checkBoxBigChars.AutoSize = true;
+			this.checkBoxBigChars.Location = new System.Drawing.Point(131, 36);
+			this.checkBoxBigChars.Name = "checkBoxBigChars";
+			this.checkBoxBigChars.Size = new System.Drawing.Size(187, 17);
+			this.checkBoxBigChars.TabIndex = 5;
+			this.checkBoxBigChars.Text = "lateinische Großbuchstaben [A..Z]";
+			this.checkBoxBigChars.UseVisualStyleBackColor = true;
 			// 
-			// checkBox3
+			// checkBoxNumbers
 			// 
-			this.checkBox3.AutoSize = true;
-			this.checkBox3.Location = new System.Drawing.Point(131, 59);
-			this.checkBox3.Name = "checkBox3";
-			this.checkBox3.Size = new System.Drawing.Size(98, 17);
-			this.checkBox3.TabIndex = 6;
-			this.checkBox3.Text = "Nummern [0..9]";
-			this.checkBox3.UseVisualStyleBackColor = true;
+			this.checkBoxNumbers.AutoSize = true;
+			this.checkBoxNumbers.Location = new System.Drawing.Point(131, 59);
+			this.checkBoxNumbers.Name = "checkBoxNumbers";
+			this.checkBoxNumbers.Size = new System.Drawing.Size(98, 17);
+			this.checkBoxNumbers.TabIndex = 6;
+			this.checkBoxNumbers.Text = "Nummern [0..9]";
+			this.checkBoxNumbers.UseVisualStyleBackColor = true;
 			// 
-			// checkBox4
+			// checkBoxSonderzeichen
 			// 
-			this.checkBox4.AutoSize = true;
-			this.checkBox4.Location = new System.Drawing.Point(131, 82);
-			this.checkBox4.Name = "checkBox4";
-			this.checkBox4.Size = new System.Drawing.Size(100, 17);
-			this.checkBox4.TabIndex = 7;
-			this.checkBox4.Text = "Sonderzeichen:";
-			this.checkBox4.UseVisualStyleBackColor = true;
+			this.checkBoxSonderzeichen.AutoSize = true;
+			this.checkBoxSonderzeichen.Location = new System.Drawing.Point(131, 82);
+			this.checkBoxSonderzeichen.Name = "checkBoxSonderzeichen";
+			this.checkBoxSonderzeichen.Size = new System.Drawing.Size(100, 17);
+			this.checkBoxSonderzeichen.TabIndex = 7;
+			this.checkBoxSonderzeichen.Text = "Sonderzeichen:";
+			this.checkBoxSonderzeichen.UseVisualStyleBackColor = true;
 			// 
-			// label1
+			// labelLength
 			// 
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(12, 14);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(40, 13);
-			this.label1.TabIndex = 0;
-			this.label1.Text = "Länge:";
+			this.labelLength.AutoSize = true;
+			this.labelLength.Location = new System.Drawing.Point(12, 14);
+			this.labelLength.Name = "labelLength";
+			this.labelLength.Size = new System.Drawing.Size(40, 13);
+			this.labelLength.TabIndex = 0;
+			this.labelLength.Text = "Länge:";
 			// 
-			// numericUpDown1
+			// numericUpDownLength
 			// 
-			this.numericUpDown1.Location = new System.Drawing.Point(58, 11);
-			this.numericUpDown1.Minimum = new decimal(new int[] {
+			this.numericUpDownLength.Location = new System.Drawing.Point(58, 11);
+			this.numericUpDownLength.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-			this.numericUpDown1.Name = "numericUpDown1";
-			this.numericUpDown1.Size = new System.Drawing.Size(48, 20);
-			this.numericUpDown1.TabIndex = 1;
-			this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.numericUpDown1.Value = new decimal(new int[] {
+			this.numericUpDownLength.Name = "numericUpDownLength";
+			this.numericUpDownLength.Size = new System.Drawing.Size(48, 20);
+			this.numericUpDownLength.TabIndex = 1;
+			this.numericUpDownLength.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			this.numericUpDownLength.Value = new decimal(new int[] {
             16,
             0,
             0,
             0});
 			// 
-			// textBox1
+			// textBoxKey
 			// 
-			this.textBox1.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.textBox1.Location = new System.Drawing.Point(73, 114);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(186, 20);
-			this.textBox1.TabIndex = 10;
+			this.textBoxKey.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.textBoxKey.Location = new System.Drawing.Point(73, 114);
+			this.textBoxKey.Name = "textBoxKey";
+			this.textBoxKey.Size = new System.Drawing.Size(186, 20);
+			this.textBoxKey.TabIndex = 10;
 			// 
-			// textBox
+			// textBoxSonderzeichen
 			// 
-			this.textBox.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.textBox.Location = new System.Drawing.Point(237, 80);
-			this.textBox.Name = "textBox";
-			this.textBox.Size = new System.Drawing.Size(78, 20);
-			this.textBox.TabIndex = 8;
-			this.textBox.Text = ".,;:-_=+()[]{}<>?!#$%&*/|\\@^\'~\"";
+			this.textBoxSonderzeichen.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.textBoxSonderzeichen.Location = new System.Drawing.Point(237, 80);
+			this.textBoxSonderzeichen.Name = "textBoxSonderzeichen";
+			this.textBoxSonderzeichen.Size = new System.Drawing.Size(78, 20);
+			this.textBoxSonderzeichen.TabIndex = 8;
+			this.textBoxSonderzeichen.Text = ".,;:-_=+()[]{}<>?!#$%&*/|\\@^\'~\"";
 			// 
-			// label2
+			// labelKey
 			// 
-			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(12, 117);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(55, 13);
-			this.label2.TabIndex = 9;
-			this.label2.Text = "Schlüssel:";
+			this.labelKey.AutoSize = true;
+			this.labelKey.Location = new System.Drawing.Point(12, 117);
+			this.labelKey.Name = "labelKey";
+			this.labelKey.Size = new System.Drawing.Size(55, 13);
+			this.labelKey.TabIndex = 9;
+			this.labelKey.Text = "Schlüssel:";
 			// 
-			// checkBox5
+			// checkBoxUnicat
 			// 
-			this.checkBox5.AutoSize = true;
-			this.checkBox5.Location = new System.Drawing.Point(15, 37);
-			this.checkBox5.Name = "checkBox5";
-			this.checkBox5.Size = new System.Drawing.Size(105, 17);
-			this.checkBox5.TabIndex = 2;
-			this.checkBox5.Text = "Zeichen-Unikate";
-			this.checkBox5.UseVisualStyleBackColor = true;
+			this.checkBoxUnicat.AutoSize = true;
+			this.checkBoxUnicat.Location = new System.Drawing.Point(15, 37);
+			this.checkBoxUnicat.Name = "checkBoxUnicat";
+			this.checkBoxUnicat.Size = new System.Drawing.Size(105, 17);
+			this.checkBoxUnicat.TabIndex = 2;
+			this.checkBoxUnicat.Text = "Zeichen-Unikate";
+			this.checkBoxUnicat.UseVisualStyleBackColor = true;
 			// 
 			// buttonSaveToFile
 			// 
@@ -182,18 +182,18 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(328, 146);
-			this.Controls.Add(this.checkBox5);
+			this.Controls.Add(this.checkBoxUnicat);
 			this.Controls.Add(this.buttonSaveToFile);
 			this.Controls.Add(this.buttonCopyToClipboard);
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.textBox);
-			this.Controls.Add(this.textBox1);
-			this.Controls.Add(this.numericUpDown1);
-			this.Controls.Add(this.label1);
-			this.Controls.Add(this.checkBox4);
-			this.Controls.Add(this.checkBox3);
-			this.Controls.Add(this.checkBox2);
-			this.Controls.Add(this.checkBox1);
+			this.Controls.Add(this.labelKey);
+			this.Controls.Add(this.textBoxSonderzeichen);
+			this.Controls.Add(this.textBoxKey);
+			this.Controls.Add(this.numericUpDownLength);
+			this.Controls.Add(this.labelLength);
+			this.Controls.Add(this.checkBoxSonderzeichen);
+			this.Controls.Add(this.checkBoxNumbers);
+			this.Controls.Add(this.checkBoxBigChars);
+			this.Controls.Add(this.checkBoxLittleChars);
 			this.Controls.Add(this.buttonGenerateKey);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -202,7 +202,7 @@
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Schlüsseldienst";
 			this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.numericUpDownLength)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -211,18 +211,18 @@
 		#endregion
 
 		private System.Windows.Forms.Button buttonGenerateKey;
-		private System.Windows.Forms.CheckBox checkBox1;
-		private System.Windows.Forms.CheckBox checkBox2;
-		private System.Windows.Forms.CheckBox checkBox3;
-		private System.Windows.Forms.CheckBox checkBox4;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.NumericUpDown numericUpDown1;
-		private System.Windows.Forms.TextBox textBox1;
-		private System.Windows.Forms.TextBox textBox;
-		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.CheckBox checkBoxLittleChars;
+		private System.Windows.Forms.CheckBox checkBoxBigChars;
+		private System.Windows.Forms.CheckBox checkBoxNumbers;
+		private System.Windows.Forms.CheckBox checkBoxSonderzeichen;
+		private System.Windows.Forms.Label labelLength;
+		private System.Windows.Forms.NumericUpDown numericUpDownLength;
+		private System.Windows.Forms.TextBox textBoxKey;
+		private System.Windows.Forms.TextBox textBoxSonderzeichen;
+		private System.Windows.Forms.Label labelKey;
 		private System.Windows.Forms.Button buttonCopyToClipboard;
 		private System.Windows.Forms.Button buttonSaveToFile;
-		private System.Windows.Forms.CheckBox checkBox5;
+		private System.Windows.Forms.CheckBox checkBoxUnicat;
 	}
 }
 
